@@ -24,12 +24,6 @@ def makeform(root, fields):
 
 root = tk.Tk()
 ents = makeform(root, fields)
-'''b1 = tk.Button(root, text='Pregnancies',
-       command=(lambda e=ents: final_balance(e)))
-b1.pack(side=tk.LEFT, padx=5, pady=5)
-b2 = tk.Button(root, text='Glucose',
-       command=(lambda e=ents: monthly_payment(e)))
-b2.pack(side=tk.LEFT, padx=5, pady=5)'''
 b3 = tk.Button(root, text='Quit', command=root.quit)
 b3.pack(side=tk.LEFT, padx=5, pady=5)
 root.mainloop()
